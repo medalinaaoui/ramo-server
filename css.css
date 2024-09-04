@@ -1,0 +1,68 @@
+selector img {
+  width: 45px;
+}
+
+selector .service-right {
+  display: none;
+}
+
+selector .service-box:before {
+  display: none;
+}
+
+selector .service-icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+selector .service-left {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/****** Cards Margin ******/
+
+selector .service-box-wrap .service-box:nth-child(2),
+selector .service-box-wrap .service-box:nth-child(5) {
+  margin-left: 0px;
+  margin-right: 330px;
+}
+
+@media (max-width: 1170px) {
+  selector .service-box-wrap .service-box:nth-child(2),
+  selector .service-box-wrap .service-box:nth-child(5) {
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 1399px) {
+  selector .service-box-wrap .service-box:nth-child(2),
+  selector .service-box-wrap .service-box:nth-child(5) {
+    margin-left: 0px;
+    margin-right: 200px;
+  }
+}
+
+selector .service-box-wrap .service-box:nth-child(3),
+selector .service-box-wrap .service-box:nth-child(6) {
+  margin-left: 0px;
+  margin-right: 650px;
+}
+
+@media (max-width: 1170px) {
+  selector .service-box-wrap .service-box:nth-child(3),
+  selector .service-box-wrap .service-box:nth-child(6) {
+    margin-left: 0px;
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 1399px) {
+  selector .service-box-wrap .service-box:nth-child(3),
+  selector .service-box-wrap .service-box:nth-child(6) {
+    margin-left: 0px;
+    margin-right: 520px;
+  }
+}
